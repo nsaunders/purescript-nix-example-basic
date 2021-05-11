@@ -12,6 +12,5 @@ Nix to build a PureScript project.
 # I think this is normal: https://discourse.purescript.org/t/purs-nix-manage-purescript-projects-with-nix/2290/4
 nix-shell --run "spago build --then 'spago2nix generate'"`
 
-# This is normal.
 nix-build
 ```
