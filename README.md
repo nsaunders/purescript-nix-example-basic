@@ -8,6 +8,9 @@ build a PureScript project.
 
 ## Building
 ```bash
-nix-shell --run "spago build --then 'spago2nix generate'"` # Required every time any source file or dependency changes. Not sure whether normal or I'm doing something wrong.
+# Required every time any source file or dependency changes. Is this normal?
+nix-shell --run "spago build --then 'spago2nix generate'"`
+
+# This is normal.
 nix-build
 ```
