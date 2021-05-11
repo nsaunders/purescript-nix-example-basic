@@ -8,7 +8,8 @@ Nix to build a PureScript project.
 
 ## Building
 ```bash
-# Required every time any source file or dependency changes. Is this normal?
+# Required every time any source file or dependency has changed since last build.
+# I think this is normal: https://discourse.purescript.org/t/purs-nix-manage-purescript-projects-with-nix/2290/4
 nix-shell --run "spago build --then 'spago2nix generate'"`
 
 # This is normal.
