@@ -1,8 +1,8 @@
 # purescript-nix-example-basic
 
 ## Purpose
-The goal of this project is to serve as a **minimalistic** example of how Nix to
-build a PureScript project.
+The goal of this project is to serve as a **minimalistic** example of how to use
+Nix to build a PureScript project.
 
 > :warning: I am a Nix newbie and would love to learn from you. If you have any advice, please [file an issue](https://github.com/nsaunders/purescript-nix-example-basic/issues).
 
